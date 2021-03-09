@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: Apache-2.0
 
-//! New Types to handle verified addresses
+//! New Types to validate untrusted memory
 
 #![deny(missing_docs)]
 #![deny(clippy::all)]

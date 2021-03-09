@@ -1,12 +1,24 @@
 [package]
-name = "untrusted"
+name = "enarx-untrusted"
 version = "0.1.0"
 authors = ["Harald Hoyer <harald@redhat.com>"]
 license = "Apache-2.0"
 edition = "2018"
-publish = false
+homepage = "https://github.com/enarx/enarx-untrusted"
+repository = "https://github.com/enarx/enarx-untrusted"
+description = "Validate untrusted memory"
+readme = "README.md"
+keywords = ["memory", "validate", "untrusted"]
+categories = ["memory-management", "no-std"]
+exclude = [ ".gitignore", ".github/*" ]
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[badges]
+# See https://doc.rust-lang.org/cargo/reference/manifest.html#the-badges-section
+github = { repository = "enarx/enarx-untrusted", workflow = "test" }
+#github = { repository = "enarx/enarx-untrusted", workflow = "lint" }
+maintenance = { status = "actively-developed" }
+is-it-maintained-issue-resolution = { repository = "enarx/enarx-untrusted" }
+is-it-maintained-open-issues = { repository = "enarx/enarx-untrusted" }
 
 [dependencies]
-primordial = "0.1"
+enarx-untrusted = "0.1"
