@@ -21,4 +21,4 @@ is-it-maintained-issue-resolution = { repository = "enarx/enarx-untrusted" }
 is-it-maintained-open-issues = { repository = "enarx/enarx-untrusted" }
 
 [dependencies]
-enarx-untrusted = "0.1"
+primordial = "0.1"
